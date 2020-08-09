@@ -1,0 +1,63 @@
+*{
+                font-family: Georgia, 'Times New Roman', Times, serif
+            }
+            body{
+                margin auto;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-image: url(diary.jpg);
+                background-size: 100% 100%;
+                height: 100%;
+            }
+            .container{
+                text-align: center;
+                margin-top: 10%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                background-color: rgba(184, 139, 88, 0.5);
+                font-size: 120%;
+                color: white;
+                border-radius: 10px;
+                width: 60%;
+            }
+            #container{
+                width: 60%;
+            }
+            #form{
+                width: 70%;
+                margin: 0 auto;
+            }
+            #email, #password, #name{
+                border: 1px solid grey;
+            }
+            #heading{
+                font-size: 300%;
+                
+            }
+            #me{
+                text-align: center;
+                margin-top: 1%;
+                padding-bottom: 8px;
+                font-size: 120%;
+                color: grey;
+            }
+            #contactme{
+                text-align: center !important;
+                margin-top: 1% !important;
+                padding-bottom: 8px !important;
+                font-size: 120% !important;
+                color: white !important;
+            }
+            #toggle{
+                margin-top: 15px;
+                color: #1443FB;
+            }
+            #toggle:hover{
+                color: #0A174A;
+                cursor: pointer;
+            }
+            .show{
+                display: block;
+            }
+            .hide{
+                display: none;
+            }
